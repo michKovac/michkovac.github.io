@@ -1,13 +1,13 @@
 ---
 # Display name
-title: Alex Johnson
+title: Michal Kováč
 
 # Name pronunciation (optional)
 name_pronunciation: ''
 
 # Full name (for SEO)
-first_name: Alex
-last_name: Johnson
+first_name: Michal
+last_name: Kováč
 
 # Pronouns (optional)
 pronouns: he/him
@@ -27,8 +27,8 @@ role: Senior AI Research Scientist
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
-  - name: Meta AI
-    url: https://ai.meta.com/
+  - name: Slovak University of Technology
+    url: https://www.stuba.sk/english.html?page_id=132
 
 # Social network links
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
@@ -48,10 +48,10 @@ profiles:
     url: https://orcid.org/0000-0002-1825-0097
 
 interests:
-  - Large Language Models
   - Computer Vision
-  - Reinforcement Learning
-  - AI Ethics
+  - Image Processing
+  - Diffusion Models
+  - Generative Adversarial Networks (GANs)
 
 education:
   - area: PhD Computer Science (AI Focus)
