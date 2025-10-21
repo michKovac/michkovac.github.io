@@ -65,6 +65,7 @@ sections:
       view: citation
   - block: collection
     id: talks
+    active: false
     content:
       title: Recent & Upcoming Talks
       filters:
@@ -74,6 +75,7 @@ sections:
       view: card
   - block: collection
     id: news
+    active: false
     content:
       title: Recent News
       subtitle: ''
