@@ -34,18 +34,18 @@ organizations:
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
 profiles:
   - icon: at-symbol
-    url: 'mailto:alex.johnson@meta.com'
+    url: 'mailto:michal.kovac1@stuba.sk'
     label: E-mail Me
   - icon: brands/x
     url: https://twitter.com/AlexAIResearch
   - icon: brands/github
-    url: https://github.com/alexjohnsonai
+    url: https://github.com/michKovac
   - icon: brands/linkedin
-    url: https://www.linkedin.com/in/alexjohnsonai/
+    url: https://www.linkedin.com/in/michal-kováč-6b58a8195
   - icon: academicons/google-scholar
-    url: https://scholar.google.com/citations?user=alexjohnson
+    url: https://scholar.google.com/citations?hl=en&user=S9B5c8QAAAAJ
   - icon: academicons/orcid
-    url: https://orcid.org/0000-0002-1825-0097
+    url: https://orcid.org/0009-0003-6608-1405
 
 interests:
   - Computer Vision
@@ -54,49 +54,91 @@ interests:
   - Generative Adversarial Networks (GANs)
 
 education:
-  - area: PhD Computer Science (AI Focus)
-    institution: Stanford University
-    date_start: 2015-09-01
+  - area: PhD Computer Science (Deep Learning in Medicine)
+    institution: Slovak University of Technology in Bratislava
+    date_start: 2023-09-01
+    date_end: ''
+    summary: |
+      Thesis: _Deep Learning-based Methods for Synthetic Medical Images Generation_
+
+      Research focuses on automated diagnostics and generative AI for medical image synthesis, 
+      particularly in improving diagnostic accuracy through synthetic data.
+    button:
+      text: 'University Website'
+      url: 'https://www.fei.stuba.sk/'
+
+  - area: MSc Robotics and Cybernetics
+    institution: Slovak University of Technology in Bratislava
+    date_start: 2021-09-01
+    date_end: 2023-06-25
+    summary: |
+      Final grade: A
+
+      Thesis: _Deep Learning-based Synthetic Medical Images Generation_
+
+      Designed GAN-based methods (Convolutional GAN, StyleGAN) to generate synthetic retinal images 
+      for improving diabetic retinopathy classification.
+
+  - area: BSc Robotics and Cybernetics
+    institution: Slovak University of Technology in Bratislava
+    date_start: 2018-08-31
+    date_end: 2021-06-28
+    summary: |
+      Thesis: _Segmentation of Retinal Images Damaged by Diabetic Retinopathy_
+
+      Developed preprocessing and semantic segmentation methods using U-Net to detect 
+      exudates in retinal fundus images (E-Optha Ex dataset).
+
+  - area: High School Diploma (Electrotechnics)
+    institution: Jozef Murgaš Secondary School of Electrical Engineering
+    date_start: 2014-09-01
     date_end: 2019-06-30
     summary: |
-      Thesis on _Scaling Laws for Neural Language Models_. Supervised by Prof. Andrew Ng. Published 5 papers in NeurIPS and ICML, with 2 best paper awards.
+      Specialized in electrical engineering fundamentals.
     button:
-      text: 'Read Thesis'
-      url: 'https://example.com/thesis.pdf'
-  - area: MS Computer Science
-    institution: Carnegie Mellon University
-    date_start: 2013-09-01
-    date_end: 2015-05-31
-    summary: |
-      GPA: 4.0/4.0
-
-      Specialized in machine learning and robotics.
-  - area: BS Computer Science
-    institution: MIT
-    date_start: 2009-09-01
-    date_end: 2013-05-31
-    summary: |
-      GPA: 3.9/4.0
-
-      Minored in Mathematics. President of AI Club.
+      text: 'School Website'
+      url: 'https://spsjm.sk'
 
 work:
-  - position: Senior AI Research Scientist
-    company_name: Meta AI
-    company_url: 'https://ai.meta.com/'
-    company_logo: ''
-    date_start: 2020-01-01
+  - position: Information Technology Engineer
+    company_name: Alfa Centauri spol. s r.o
+    company_url: ''
+    date_start: 2021-01-01
     date_end: ''
-    summary: |2-
-      Leading research on multimodal AI systems. Contributed to Llama 2 and other open-source models. 50+ citations in 3 years.
-  - position: AI Research Intern
-    company_name: OpenAI
-    company_url: 'https://openai.com/'
-    company_logo: ''
-    date_start: 2019-06-01
+    summary: |
+      Design, implement, and manage modern server and cloud infrastructure with focus on automation and security.
+
+      Key contributions:
+      - Managed Windows servers via Hyper-V and configured virtual networks.
+      - Automated system administration using Puppet and Foreman.
+      - Developed Python-based data processing tools for integration with external systems.
+      - Created Power Automate and Power Apps solutions to streamline workflows.
+      - Implemented multi-layer security measures and antivirus management.
+
+  - position: Research Intern
+    company_name: YONSEI Seamless Trans-X Lab (Prof. Shiho Kim)
+    company_url: ''
+    date_start: 2024-09-01
+    date_end: 2024-11-30
+    summary: |
+      Contributed to autonomous vehicle perception research using multispectral camera imaging 
+      and data fusion techniques.
+
+      - Worked on RGB and multispectral data fusion for robust object detection.
+      - Used PyTorch and Hugging Face Accelerate for model training on GPU clusters.
+      - Participated in weekly stand-ups and collaborative experiments.
+
+  - position: Electrical Technician
+    company_name: STUBA Green Team
+    company_url: ''
+    date_start: 2018-01-01
     date_end: 2019-12-31
     summary: |
-      Worked on GPT-3 scaling. Co-authored paper on prompt engineering.
+      Member of the electrical division at the Formula Student Electric competition team.
+
+      - Designed circuit schematics for safety systems and PCBs using Altium.
+      - Tested and debugged electronic circuits for electric formula vehicles.
+
 
 # Skills
 # Add your own SVG icons to `assets/media/icons/`
