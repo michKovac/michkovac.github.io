@@ -43,6 +43,7 @@ sections:
       columns: '1'
   - block: collection
     id: papers
+    active: false
     content:
       title: Featured Publications
       filters:
