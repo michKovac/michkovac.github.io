@@ -1,84 +1,79 @@
 ---
-title: "An example journal article"
+title: "RASMD: RGB and SWIR Multispectral Driving Dataset for Robust Perception in Adverse Conditions"
+
 authors:
 - admin
-- Robert Ford
-author_notes:
-- "Equal contribution"
-- "Equal contribution"
-date: "2015-09-01T00:00:00Z"
+- Youngwan Jin
+- Michal Kovac
+- Yagiz Nalcakan
+- Hyeongjin Ju
+- Hanbin Song
+- Sanghyeop Yeo
+- Shiho Kim
+
+# Journal publication (use the journal’s online-available date if you want; below is a safe placeholder).
+date: "2025-10-28T00:00:00Z"
 
 # Schedule page publish date (NOT publication's date).
-publishDate: "2017-01-01T00:00:00Z"
+publishDate: "2025-10-29T00:00:00Z"
 
-# Publication type.
-# Accepts a single type but formatted as a YAML list (for Hugo requirements).
-# Enter a publication type from the CSL standard.
+# Publication type (CSL).
 publication_types: ["article-journal"]
 
-# Publication name and optional abbreviated publication name.
-publication: "*Journal of Source Themes, 1*(1)"
-publication_short: ""
+# Publication name and optional abbreviated name.
+publication: "*Pattern Recognition Letters*"
+publication_short: "PRL"
 
-abstract: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.
+# Abstract (short, web-friendly).
+abstract: >
+  We introduce **RASMD**, a large-scale multispectral driving dataset of **100,000** synchronized and pixel-aligned **RGB–SWIR** image pairs captured across diverse locations, lighting, and adverse weather (fog, rain, snow, glare, high contrast). RASMD includes benchmarks for **object detection** and **RGB↔SWIR translation**, showing that combining RGB and SWIR improves perception under challenging conditions.
 
-# Summary. An optional shortened abstract.
-summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
+# Summary (optional, for cards/previews).
+summary: 100k paired RGB–SWIR images + benchmarks for object detection and RGB↔SWIR translation; improves robustness in adverse conditions.
 
 tags:
-- Source Themes
+- Dataset
+- Autonomous Driving
+- Computer Vision
+- SWIR
+- Multispectral
+- Object Detection
 featured: false
 
 hugoblox:
   ids:
-    arxiv: 1512.04133v1
+    arxiv: 2504.07603
 
 links:
-  - type: pdf
-    url: http://arxiv.org/pdf/1512.04133v1
-  - type: code
-    url: https://github.com/HugoBlox/hugo-blox-builder
+  - type: paper
+    name: Journal (ScienceDirect)
+    url: https://www.sciencedirect.com/science/article/abs/pii/S1566253525009340
+  - type: website
+    name: Project page
+    url: https://yonsei-stl.github.io/RASMD/
   - type: dataset
-    url: ""
-  - type: poster
-    url: ""
-  - type: project
-    url: ""
-  - type: slides
-    url: https://www.slideshare.net/
+    name: Hugging Face dataset
+    url: https://huggingface.co/datasets/STL-Yonsei/RASMD
+  - type: pdf
+    name: arXiv PDF
+    url: https://arxiv.org/pdf/2504.07603
   - type: source
-    url: ""
-  - type: video
-    url: ""
+    name: arXiv entry
+    url: https://arxiv.org/abs/2504.07603
 
 # Featured image
-# To use, add an image named `featured.jpg/png` to your page's folder. 
+# Add `featured.jpg/png` to this folder if you want a banner/thumbnail.
 image:
-  caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/jdD8gXaTZsc)'
+  caption: "RASMD: Paired RGB–SWIR samples across varied scenes and weather (see project page)."
   focal_point: ""
   preview_only: false
 
-# Associated Projects (optional).
-#   Associate this publication with one or more of your projects.
-#   Simply enter your project's folder or file name without extension.
-#   E.g. `internal-project` references `content/project/internal-project/index.md`.
-#   Otherwise, set `projects: []`.
 projects: []
 
-# Slides (optional).
-#   Associate this publication with Markdown slides.
-#   Simply enter your slide deck's filename without extension.
-#   E.g. `slides: "example"` references `content/slides/example/index.md`.
-#   Otherwise, set `slides: ""`.
 slides: ""
 ---
 
-{{% callout note %}}
-Click the *Cite* button above to demo the feature to enable visitors to import publication metadata into their reference management software.
-{{% /callout %}}
+Add any **notes** here (e.g., BibTeX, extended results, or a teaser image from the project page).
 
-{{% callout note %}}
-Create your slides in Markdown - click the *Slides* button to check out the example.
-{{% /callout %}}
-
-Add the publication's **full text** or **supplementary notes** here. You can use rich formatting such as including [code, math, and images](https://docs.hugoblox.com/content/writing-markdown-latex/).
+- **Code/Usage:** see the dataset card for loaders and examples.  
+- **Benchmarks:** object detection and RGB↔SWIR translation protocols are included on the project page and paper.
