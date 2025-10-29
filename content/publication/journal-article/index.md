@@ -2,13 +2,12 @@
 title: "RASMD: RGB and SWIR Multispectral Driving Dataset for Robust Perception in Adverse Conditions"
 
 authors:
-- admin
 - Youngwan Jin
-- Michal Kovac
+- admin
 - Yagiz Nalcakan
-- Hyeongjin Ju
-- Hanbin Song
+- Incheol Park
 - Sanghyeop Yeo
+- Hyeongjin Ju
 - Shiho Kim
 
 # Journal publication (use the journal’s online-available date if you want; below is a safe placeholder).
@@ -21,8 +20,8 @@ publishDate: "2025-10-29T00:00:00Z"
 publication_types: ["article-journal"]
 
 # Publication name and optional abbreviated name.
-publication: "*Pattern Recognition Letters*"
-publication_short: "PRL"
+publication: "*Information Fusion*"
+
 
 # Abstract (short, web-friendly).
 abstract: >
