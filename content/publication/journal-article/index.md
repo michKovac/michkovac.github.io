@@ -56,9 +56,6 @@ links:
   - type: pdf
     name: arXiv PDF
     url: https://arxiv.org/pdf/2504.07603
-  - type: source
-    name: arXiv entry
-    url: https://arxiv.org/abs/2504.07603
 
 # Featured image
 # Add `featured.jpg/png` to this folder if you want a banner/thumbnail.
