@@ -153,10 +153,6 @@ skills:
         description: ''
         percent: 100
         icon: chart-bar
-      - name: Cloud Computing (AWS/GCP)
-        description: ''
-        percent: 85
-        icon: cloud
   - name: Hobbies
     color: '#eeac02'
     color_border: '#f0bf23'
@@ -165,10 +161,6 @@ skills:
         description: ''
         percent: 80
         icon: person-simple-walk
-      - name: Building Custom PCs
-        description: ''
-        percent: 90
-        icon: cpu-chip
       - name: Sci-Fi Reading
         description: ''
         percent: 70
@@ -177,8 +169,7 @@ skills:
 languages:
   - name: English
     percent: 100
-  - name: Spanish
-    percent: 50
+
 
 # Awards.
 #   Add/remove as many awards below as you like.
@@ -186,26 +177,23 @@ languages:
 #   Begin multi-line `summary` with YAML's `|` or `|2-` multi-line prefix and indent 2 spaces below.
 awards:
   - title: Best Paper Award
-    url: https://neurips.cc/
+    url: https://www.fei.stuba.sk/sk/studium/doktorandske-studium/elitech.html?page_id=3869
     date: '2022-12-01'
-    awarder: NeurIPS
+    awarder: ELITECH
     icon: hero/trophy
     summary: |
-      Awarded for groundbreaking work on efficient training of large models.
-  - title: AI Innovation Grant
-    url: https://www.nsf.gov/
-    date: '2021-06-15'
-    awarder: National Science Foundation
+      Awarded for the best paper in the Robotics and Cybernetics session at the ELITECH conference.
+  - title: Early Stage Grant of STU
+    url: hhttps://www.stuba.sk/sk/vyskume/projekty-poo/early-stage-granty.html?page_id=16590
+    date: '2023-12-20'
+    awarder: Early Stage Grant
     icon: hero/currency-dollar
     summary: |
-      $500,000 grant for research in ethical AI development.
-  - title: Outstanding PhD Thesis
-    url: https://www.stanford.edu/
-    date: '2019-06-30'
-    awarder: Stanford University
-    icon: hero/academic-cap
-    summary: |
-      Recognized for contributions to scaling laws in deep learning.
+      Awarded a grant to support innovative research in applying AI to healthcare, focusing on improving diagnostic accuracy and patient outcomes through advanced machine learning techniques.
 ---
 
-Alex Johnson is a Senior AI Research Scientist at Meta AI, where he leads groundbreaking work on large language models and multimodal systems. His research has been published in top conferences like NeurIPS and ICML, with over 10,000 citations. Alex is passionate about pushing the boundaries of AI while ensuring ethical development. Outside of work, he enjoys hiking in the Rockies, building custom PCs, and mentoring the next generation of AI talent.
+Michal Kováč is a PhD student and researcher at the Slovak University of Technology in Bratislava, working at the intersection of artificial intelligence and ophthalmology. His research focuses on deep learning for medical imaging, with an emphasis on automated eye disease diagnostics and synthetic data generation to enhance the robustness of AI systems.
+
+He has also contributed to international research collaborations in the field of autonomous driving and multispectral imaging, including co-authoring a paper published in Information Fusion and co-organizing the MIRA Workshop at ICCV 2025 in Hawaii.
+
+Michal is passionate about applying AI to solve real-world challenges in healthcare and perception systems. Outside of research, he enjoys hiking, climbing, exploring nature, and traveling.
