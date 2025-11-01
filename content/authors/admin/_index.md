@@ -34,7 +34,7 @@ organizations:
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
 profiles:
   - icon: at-symbol
-    url: 'mailto:michal.kovac1@stuba.sk'
+    url: 'mailto:michal.kovac1[at]stuba.sk'
     label: E-mail Me
   - icon: brands/x
     url: https://twitter.com/AlexAIResearch
