@@ -29,18 +29,18 @@ sections:
       avatar:
         size: medium # Options: small (150px), medium (200px, default), large (320px), xl (400px), xxl (500px)
         shape: circle # Options: circle (default), square, rounded
-  - block: markdown
-    content:
-      title: '📚 My Research'
-      subtitle: ''
-      text: |-
-        I’m a PhD student at the Slovak University of Technology in Bratislava, where I work on applying deep learning methods in ophthalmology. My research focuses on automated diagnostics and synthetic medical data generation to improve the accuracy and robustness of AI-assisted medical systems.
+  #- block: markdown
+  #  content:
+  #    title: '📚 My Research'
+  #    subtitle: ''
+  #    text: |-
+  #      I’m a PhD student at the Slovak University of Technology in Bratislava, where I work on applying deep learning methods in ophthalmology. My research focuses on automated diagnostics and synthetic medical data generation to improve the accuracy and robustness of AI-assisted medical systems.
 
-        Beyond my doctoral research, I collaborate on projects exploring multispectral imaging and perception for autonomous vehicles.
+  #      Beyond my doctoral research, I collaborate on projects exploring multispectral imaging and perception for autonomous vehicles.
 
-        I’m always open to new collaborations and research discussions — feel free to reach out! 😄
-    design:
-      columns: '1'
+  #      I’m always open to new collaborations and research discussions — feel free to reach out! 😄
+  #  design:
+  #    columns: '1'
 #  - block: collection
 #    id: papers
 #    active: false
