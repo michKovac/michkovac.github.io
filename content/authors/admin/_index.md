@@ -192,8 +192,10 @@ awards:
       Awarded a grant to support innovative research in applying AI to healthcare, focusing on improving diagnostic accuracy and patient outcomes through advanced machine learning techniques.
 ---
 
-Michal Kováč is a PhD student and researcher at the Slovak University of Technology in Bratislava, working at the intersection of artificial intelligence and ophthalmology. His research focuses on deep learning for medical imaging, with an emphasis on automated eye disease diagnostics and synthetic data generation to enhance the robustness of AI systems.
+I am a Ph.D. student at the [Slovak University of Technology in Bratislava](https://www.stuba.sk/english.html?page_id=132), where I work on deep learning for ophthalmology with a focus on automated eye disease diagnostics and synthetic data generation to improve the robustness of AI-assisted medical imaging systems. My research lies at the intersection of [computer vision](https://en.wikipedia.org/wiki/Computer_vision), [medical imaging](https://en.wikipedia.org/wiki/Medical_imaging), and [artificial intelligence](https://en.wikipedia.org/wiki/Artificial_intelligence).
 
-He has also contributed to international research collaborations in the field of autonomous driving and multispectral imaging, including co-authoring a paper published in Information Fusion and co-organizing the MIRA Workshop at ICCV 2025 in Hawaii.
+In collaboration with the [Seamless Trans-X Lab (STL)](https://stl.yonsei.ac.kr/) at [Yonsei University](https://www.yonsei.ac.kr/), I have contributed to the development of a multispectral dataset for autonomous driving and co-authored the paper "[RASMD: RGB and SWIR Multispectral Driving Dataset for Robust Perception in Adverse Conditions](https://www.sciencedirect.com/science/article/abs/pii/S1566253525009340)" published in [Information Fusion](https://www.sciencedirect.com/journal/information-fusion). I also served as a co-organizer of the [MIRA Workshop](https://multispectral4ra.github.io/) at [ICCV 2025 in Hawaii](https://iccv.thecvf.com/), focusing on multispectral imaging for robotics and automation.
 
-Michal is passionate about applying AI to solve real-world challenges in healthcare and perception systems. Outside of research, he enjoys hiking, climbing, exploring nature, and traveling.
+My research interests include deep learning for perception systems, multispectral and infrared imaging, and AI applications in healthcare.
+
+Outside of research, I enjoy hiking, climbing, exploring nature, and traveling.
