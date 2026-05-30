@@ -1,12 +1,12 @@
-{{/* Scale the whole layout up on large / high-DPI desktop screens.
-     The theme is fully rem-based (text, paddings and max-widths), so bumping the
-     root font-size enlarges the typography AND widens the content containers,
-     reducing the empty side margins on wide monitors. Tailwind's responsive
-     breakpoints resolve rem against the initial 16px in media queries, so the
-     layout breakpoints stay anchored to the viewport and mobile is unaffected. */}}
+{{/* Scale the whole layout fluidly on desktop so it doesn't look "zoomed out".
+     The theme is fully rem-based (text, paddings AND max-width containers), so a
+     viewport-relative root font-size enlarges the typography and widens the
+     content containers together — reducing the empty side margins on wide
+     monitors. Using clamp(vw) adapts continuously to ANY resolution / DPI
+     scaling (no fixed breakpoints to miss). Tailwind resolves its responsive
+     breakpoints against the initial 16px in media queries, so the layout
+     breakpoints stay anchored to the viewport and mobile is unaffected
+     (clamp floor = 16px until the viewport is wide enough). */}}
 <style>
-  @media (min-width: 1536px) { html { font-size: 17px; } }
-  @media (min-width: 1920px) { html { font-size: 18.5px; } }
-  @media (min-width: 2560px) { html { font-size: 21px; } }
-  @media (min-width: 3200px) { html { font-size: 24px; } }
+  :root { font-size: clamp(16px, 0.6vw + 10px, 28px); }
 </style>
