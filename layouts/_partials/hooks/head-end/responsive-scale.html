@@ -1,0 +1,12 @@
+{{/* Scale the whole layout up on large / high-DPI desktop screens.
+     The theme is fully rem-based (text, paddings and max-widths), so bumping the
+     root font-size enlarges the typography AND widens the content containers,
+     reducing the empty side margins on wide monitors. Tailwind's responsive
+     breakpoints resolve rem against the initial 16px in media queries, so the
+     layout breakpoints stay anchored to the viewport and mobile is unaffected. */}}
+<style>
+  @media (min-width: 1536px) { html { font-size: 17px; } }
+  @media (min-width: 1920px) { html { font-size: 18.5px; } }
+  @media (min-width: 2560px) { html { font-size: 21px; } }
+  @media (min-width: 3200px) { html { font-size: 24px; } }
+</style>
