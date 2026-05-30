@@ -1,12 +1,24 @@
-{{/* Scale the whole layout fluidly on desktop so it doesn't look "zoomed out".
-     The theme is fully rem-based (text, paddings AND max-width containers), so a
-     viewport-relative root font-size enlarges the typography and widens the
-     content containers together — reducing the empty side margins on wide
-     monitors. Using clamp(vw) adapts continuously to ANY resolution / DPI
-     scaling (no fixed breakpoints to miss). Tailwind resolves its responsive
-     breakpoints against the initial 16px in media queries, so the layout
-     breakpoints stay anchored to the viewport and mobile is unaffected
-     (clamp floor = 16px until the viewport is wide enough). */}}
+{{/* Make the landing page fill wide desktop screens instead of looking
+     "zoomed out" with large empty side margins.
+
+     Root cause: the section containers are capped narrow and centered —
+     hero = max-w-7xl (1280px), education = max-w-5xl (1024px) and the
+     publication collections = max-w-screen-lg (only 1024px). On a 1920px+
+     monitor that leaves huge empty margins and forces content to stack tall.
+
+     Fix: widen those three containers to ~92% of the viewport (capped at
+     1680px) from 1400px upward. The min() never shrinks them below their
+     defaults, and below 1400px (laptops / tablets / mobile) nothing changes.
+     A gentle root font-size clamp keeps text from looking tiny on very large
+     screens without affecting the responsive breakpoints (Tailwind resolves
+     those against the initial 16px in media queries). */}}
 <style>
-  :root { font-size: clamp(16px, 0.6vw + 10px, 28px); }
+  @media (min-width: 1400px) {
+    .max-w-7xl,
+    .max-w-5xl,
+    .max-w-screen-lg {
+      max-width: min(1680px, 92vw) !important;
+    }
+  }
+  :root { font-size: clamp(16px, 0.28vw + 12px, 20px); }
 </style>
