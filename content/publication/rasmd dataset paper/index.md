@@ -37,7 +37,7 @@ tags:
 - SWIR
 - Multispectral
 - Object Detection
-featured: false
+featured: true
 
 hugoblox:
   ids:
